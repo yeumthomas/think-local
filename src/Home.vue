@@ -53,8 +53,12 @@ body {
   background-color: #C8E7F5;
   /* make it look decent enough */
   color: #cdcdcd;
-  overflow: hidden;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
 }
+
+
 
 .logo {
     width: 200px;

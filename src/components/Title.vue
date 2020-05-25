@@ -11,7 +11,9 @@
                 <span>Bakeries</span>
             </div>
             </h2>
-        <p class='desc'>By locals for locals</p>
+        <p class='desc'>Your local business needs your help. With COVID-19 causing the closure of more than
+            100,000 small businesses, it is important that we lend a hand to our neighbors.
+        </p>
     </div>
   </div>
 </template>
@@ -46,6 +48,10 @@ export default {
     .container {
     font-size: 30px;
     padding-left: 15px;
+    }
+
+    #title {
+        margin-top: 15vh;
     }
 }
 p {

@@ -31,7 +31,7 @@ export default {
   text-align: center;
   color: #35414d;
   max-width: 650px;
-  margin: 20% auto 0 auto;
+  margin: 25vh auto 0 auto;
   padding-left: 4px;
   padding-right: 4px;
 }
@@ -42,6 +42,11 @@ export default {
     font-size: 36px;
 }
 
+p {
+    text-align: left;
+    margin: 15px 33% 15px 0px;
+    font-size: 24px;
+}
 h2 {
     color: #222;
     text-align: left;

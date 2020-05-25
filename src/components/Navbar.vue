@@ -16,7 +16,7 @@
                 <a href="/contact"><li>Tell Friends</li></a>
                 <a href="/contact"><li>FAQ</li></a>
                 <a href="/katy"><li>Katy, TX</li></a>
-                <div style="min-height: 40%"/>
+                <div style="min-height: 45%"/>
                 <p>▬▬▬▬▬</p>
                 <h1 class="foot-words">Made with ☕️ and ❤️ by Thomas Yeum. </h1>
                 </ul>
@@ -47,9 +47,9 @@ body {
   background-color: #C8E7F5;
   /* make it look decent enough */
   color: #cdcdcd;
-    overflow: hidden;
-    position: relative;
-    height: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
 }
 
 
@@ -67,12 +67,8 @@ body {
 
 .foot-words {
   font-size: 14px;
+  color: #123456;
 }
-
-
-
-
-
 
 
 /* HAMBURGER */
@@ -92,14 +88,18 @@ body {
 #menuToggle a
 {
   text-decoration: none;
-  color: #232323;
+  color: #123456;
   
   transition: color 0.3s ease;
 }
 
-#menuToggle a:hover
+#menuToggle li:hover
 {
-  color: tomato;
+  color: #6381A8;
+  border: 2px solid #6381A8;
+  border-radius: 10px;
+  padding: 8px 0px;
+  cursor: pointer; 
 }
 
 

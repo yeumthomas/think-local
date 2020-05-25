@@ -13,7 +13,7 @@ export default {
   name: 'Home',
   components: {
     Title,
-    Navbar
+    Navbar,
   } 
 }
 </script>
@@ -27,9 +27,9 @@ body {
   background-color: #C8E7F5;
   /* make it look decent enough */
   color: #cdcdcd;
-    overflow: hidden;
-    position: relative;
-    height: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
 }
 
 #home {
@@ -38,5 +38,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+.circle-div {
+  text-align:center;
+  position: absolute;
+  z-index: -1;
 }
 </style>

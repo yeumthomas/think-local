@@ -41,8 +41,8 @@ export default {
   color: #35414d;
   max-width: 886px;
   margin: 25vh auto 0 auto;
-  padding-left: 10px;
-  padding-right: 4px;
+  padding-left: 4px;
+  padding-right: 2px;
 }
 
 .container {
@@ -59,7 +59,31 @@ export default {
     z-index: -1;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 500px) {
+    #title {
+        margin: 15vh auto 0 auto;
+    }
+    .container {
+    font-size: 30px;
+    padding: 0px 15px 0px -5px;
+    }
+
+    p {
+    text-align: left;
+    /* the % makes the paragraph get margin-right larger/smaller */
+    margin: 15px 5px 15px 10px;
+    font-size: 24px;
+    width: 92vw;
+    }
+
+    .titlePic {
+        width: 230px;
+        bottom: -3vh;
+        left: 0vw;
+    }
+}
+
+@media screen and (max-width: 720px) and (min-width: 501px) {
     .container {
     font-size: 30px;
     padding-left: 15px;
@@ -78,7 +102,7 @@ export default {
     }
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 890px) and (min-width: 721px) {
     .container {
     font-size: 30px;
     padding-left: 15px;

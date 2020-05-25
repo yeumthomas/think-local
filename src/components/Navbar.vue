@@ -55,10 +55,12 @@ body {
 
 
 .logo {
-    width: 200px;
+    width: 150px;
     float: right;
-    margin: 20px -20px;
+    margin: 30px 0px 0px 30px;
     z-index: 1000;
+
+
 }
 
 .header {
@@ -78,6 +80,8 @@ body {
   position: relative;
   top: 50px;
   left: 50px;
+  max-width: 100px;
+  margin-right: 0px;
   
   z-index: 1;
   

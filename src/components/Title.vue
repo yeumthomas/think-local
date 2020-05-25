@@ -42,6 +42,12 @@ export default {
     font-size: 36px;
 }
 
+@media screen and (max-width: 750px) {
+    .container {
+    font-size: 30px;
+    padding-left: 15px;
+    }
+}
 p {
     text-align: left;
     margin: 15px 33% 15px 0px;

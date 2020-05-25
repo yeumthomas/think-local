@@ -24,8 +24,8 @@ body {
   direction: ltr;
   margin: 0;
   padding: 0;
-  background-color: #C8E7F5;
-  /* make it look decent enough */
+  background-color:#c3e2f0;
+  /* make it look decent enough #C8E7F5*/
   color: #cdcdcd;
   overflow: hidden;
   position: relative;

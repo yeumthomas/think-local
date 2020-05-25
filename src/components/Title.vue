@@ -11,17 +11,24 @@
                 <span>Bakeries</span>
             </div>
             </h2>
-        <p class='desc'>Your local business needs your help. With COVID-19 causing the closure of more than
-            100,000 small businesses, it is important that we lend a hand to our neighbors.
-        </p>
-    </div>
+            <!--- Statistic credit: https://www.nber.org/papers/w26989.pdf -->
+            <p class='desc'>Your local business needs your help. With COVID-19 causing the closure of more than
+                100,000 small businesses, it is important that we lend a hand to our neighbors.
+            </p>
+            <img :src="titlePic" alt="titlePic" class="titlePic"/>
+        </div>
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'Title'
+  name: 'Title',
+    data () {
+        return {
+            titlePic: require('@/assets/cookfinalfinal.jpg')
+        }
+    } 
 }
 </script>
 
@@ -32,9 +39,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #35414d;
-  max-width: 650px;
+  max-width: 886px;
   margin: 25vh auto 0 auto;
-  padding-left: 4px;
+  padding-left: 10px;
   padding-right: 4px;
 }
 
@@ -44,21 +51,65 @@ export default {
     font-size: 36px;
 }
 
-@media screen and (max-width: 750px) {
+.titlePic {
+    width: 400px;
+    position: relative;
+    bottom: 43vh;
+    left: 19vw;
+    z-index: -1;
+}
+
+@media screen and (max-width: 720px) {
     .container {
     font-size: 30px;
     padding-left: 15px;
     }
 
-    #title {
-        margin-top: 15vh;
+    p {
+    text-align: left;
+    /* the % makes the paragraph get margin-right larger/smaller */
+    margin: 15px 60% 15px 0px;
+    font-size: 24px;
+    }
+
+    .titlePic {
+        width: 300px;
+        bottom: 40vh;
     }
 }
-p {
+
+@media screen and (max-width: 890px) {
+    .container {
+    font-size: 30px;
+    padding-left: 15px;
+    }
+
+    p {
     text-align: left;
-    margin: 15px 33% 15px 0px;
+    margin: 15px 60% 15px 0px;
     font-size: 24px;
+    }
+
+    .titlePic {
+        left: 23vw;
+        bottom: 45vh;
+    }
+
 }
+
+@media screen and (min-width: 891px) {
+    /* The translation of the title picture */
+    .titlePic {
+        left: 23vw;
+    }
+
+    p {
+    text-align: left;
+    margin: 15px 42% 15px 0px;
+    font-size: 24px;
+    }
+}
+
 h2 {
     color: #222;
     text-align: left;
@@ -67,6 +118,7 @@ h2 {
 
 .rotate-words {
     display: inline;
+
 }
 
 .rotate-words span {

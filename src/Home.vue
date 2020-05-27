@@ -29,7 +29,7 @@ body {
   color: #cdcdcd;
   overflow: hidden;
   position: relative;
-  height: 100%;
+  height: 100%; 
 }
 
 #home {

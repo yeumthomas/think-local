@@ -59,7 +59,7 @@ export default {
   margin-bottom: 5px;
   position: relative;
   
-  background: #6381A8;
+  background: rgb(116, 152, 199);
   border-radius: 3px;
   
   z-index: 1;
@@ -86,7 +86,7 @@ body {
   background-color: #C8E7F5;
   /* make it look decent enough */
   color: #cdcdcd;
-  overflow: hidden;
+  overflow-x: hidden;
   position: relative;
   height: 100%;
 }
@@ -246,6 +246,12 @@ body {
   transform: translate(-100%, 0);
   
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+@media screen and (max-width: 500px) {
+  #menu {
+    height:  87vh;
+  }
 }
 
 @media screen and (max-width: 650px) {

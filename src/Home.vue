@@ -27,7 +27,7 @@ body {
   background-color:#c3e2f0;
   /* make it look decent enough #C8E7F5*/
   color: #cdcdcd;
-  overflow-x: hidden;
+  overflow: hidden;
   position: relative;
   height: 100%;
 }
@@ -40,9 +40,10 @@ body {
   color: #2c3e50;
 }
 
-.circle-div {
-  text-align:center;
-  position: absolute;
-  z-index: -1;
+@media screen and (max-width: 399px) {
+  body {
+    overflow: visible;
+    overflow-x: hidden;
+  }
 }
 </style>

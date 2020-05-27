@@ -13,7 +13,7 @@
             </h2>
             <!--- Statistic credit: https://www.nber.org/papers/w26989.pdf -->
             <p class='desc'>Your local businesses need your help. With COVID-19 causing the closure of more than
-                100,000 small businesses in the US alone, it is important now more than ever that we lend a hand to our neighbors.
+                100,000 small businesses in the US alone, we can all help out by purchasing gift cards and paying it forward.
             </p>
             <img :src="titlePic" alt="titlePic" class="titlePic"/>
         </div>
@@ -47,7 +47,7 @@ export default {
 
 .container {
     align-items: center;
-    height: 100vh;
+    height: 60vh;
     font-size: 36px;
 }
 
@@ -66,6 +66,7 @@ export default {
     .container {
     font-size: 30px;
     padding: 0px 15px 0px 10px;
+    overflow-y: visible;
     }
 
     p {
@@ -90,6 +91,7 @@ export default {
     .container {
     font-size: 36px;
     padding: 0px 15px 0px 10px;
+    min-height: 150vh;
     }
 
     p {

@@ -27,7 +27,7 @@ body {
   background-color:#c3e2f0;
   /* make it look decent enough #C8E7F5*/
   color: #cdcdcd;
-  overflow: hidden;
+  overflow-x: hidden;
   position: relative;
   height: 100%;
 }

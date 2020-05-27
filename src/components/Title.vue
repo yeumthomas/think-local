@@ -12,8 +12,8 @@
             </div>
             </h2>
             <!--- Statistic credit: https://www.nber.org/papers/w26989.pdf -->
-            <p class='desc'>Your local business needs your help. With COVID-19 causing the closure of more than
-                100,000 small businesses, it is important that we lend a hand to our neighbors.
+            <p class='desc'>Your local businesses need your help. With COVID-19 causing the closure of more than
+                100,000 small businesses in the US alone, it is important now more than ever that we lend a hand to our neighbors.
             </p>
             <img :src="titlePic" alt="titlePic" class="titlePic"/>
         </div>
@@ -59,19 +59,19 @@ export default {
     z-index: -1;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 399px) {
     #title {
         margin: 15vh auto 0 auto;
     }
     .container {
     font-size: 30px;
-    padding: 0px 15px 0px -5px;
+    padding: 0px 15px 0px 10px;
     }
 
     p {
     text-align: left;
     /* the % makes the paragraph get margin-right larger/smaller */
-    margin: 15px 5px 15px 10px;
+    margin: 15px 5px 15px 0px;
     font-size: 24px;
     width: 92vw;
     }
@@ -83,7 +83,50 @@ export default {
     }
 }
 
-@media screen and (max-width: 720px) and (min-width: 501px) {
+@media screen and (max-width: 500px) and (min-width: 400px) {
+    #title {
+        margin: 15vh auto 0 auto;
+    }
+    .container {
+    font-size: 36px;
+    padding: 0px 15px 0px 10px;
+    }
+
+    p {
+    text-align: left;
+    /* the % makes the paragraph get margin-right larger/smaller */
+    margin: 15px 5px 5px 0px;
+    font-size: 24px;
+    width: 92vw;
+    }
+
+    .titlePic {
+        width: 230px;
+        bottom: -3vh;
+        left: 0vw;
+    }
+}
+
+@media screen and (max-width: 586px) and (min-width: 501px) {
+    .container {
+    font-size: 30px;
+    padding-left: 15px;
+    }
+
+    p {
+    text-align: left;
+    /* the % makes the paragraph get margin-right larger/smaller */
+    margin: 30px 60% 15px 0px;
+    font-size: 18px;
+    }
+
+    .titlePic {
+        width: 300px;
+        bottom: 33vh;
+    }
+}
+
+@media screen and (max-width: 720px) and (min-width: 587px) {
     .container {
     font-size: 30px;
     padding-left: 15px;
@@ -93,7 +136,7 @@ export default {
     text-align: left;
     /* the % makes the paragraph get margin-right larger/smaller */
     margin: 15px 60% 15px 0px;
-    font-size: 24px;
+    font-size: 18px;
     }
 
     .titlePic {
@@ -102,7 +145,7 @@ export default {
     }
 }
 
-@media screen and (max-width: 890px) and (min-width: 721px) {
+@media screen and (max-width: 830px) and (min-width: 721px) {
     .container {
     font-size: 30px;
     padding-left: 15px;
@@ -116,7 +159,45 @@ export default {
 
     .titlePic {
         left: 23vw;
-        bottom: 45vh;
+        bottom: 52vh;
+    }
+
+}
+
+@media screen and (max-width: 830px) and (min-width: 721px) {
+    .container {
+    font-size: 30px;
+    padding-left: 15px;
+    }
+
+    p {
+    text-align: left;
+    margin: 15px 60% 15px 0px;
+    font-size: 24px;
+    }
+
+    .titlePic {
+        left: 23vw;
+        bottom: 52vh;
+    }
+
+}
+
+@media screen and (max-width: 890px) and (min-width: 831px) {
+    .container {
+    font-size: 30px;
+    padding-left: 15px;
+    }
+
+    p {
+    text-align: left;
+    margin: 15px 60% 15px 0px;
+    font-size: 24px;
+    }
+
+    .titlePic {
+        left: 23vw;
+        bottom: 48vh;
     }
 
 }
@@ -149,7 +230,7 @@ h2 {
     position: absolute;
     opacity: 0;
     padding: 0 10px 0 5px;
-    color: #123456;
+    color: #6381A8;
     transition: color 0.25s ease-in-out;
     animation: rotateWord 15s linear infinite 0s;
 }

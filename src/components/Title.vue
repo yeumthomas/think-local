@@ -12,8 +12,9 @@
             </div>
             </h2>
             <!--- Statistic credit: https://www.nber.org/papers/w26989.pdf -->
-            <p class='desc'>Your local businesses need your help. With COVID-19 causing the closure of more than
-                100,000 small businesses in the US alone, we can all help out by purchasing gift cards and paying it forward.
+            <p class='desc'>Our local businesses need our help. With COVID-19 causing the closure of more than
+                100,000 small businesses in the US alone, we can all support our neighbors by purchasing gift 
+                cards and paying it forward.
             </p>
             <img :src="titlePic" alt="titlePic" class="titlePic"/>
         </div>

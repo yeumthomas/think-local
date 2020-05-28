@@ -27,7 +27,7 @@ export default {
   name: 'Title',
     data () {
         return {
-            titlePic: require('@/assets/cookfinalfinal.jpg')
+            titlePic: require('@/assets/cookfinalfinal.jpg') 
         }
     } 
 }

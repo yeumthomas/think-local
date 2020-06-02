@@ -12,9 +12,12 @@
             </div>
             </h2>
             <!--- Statistic credit: https://www.nber.org/papers/w26989.pdf -->
-            <p class='desc'>Our local businesses need our help. With COVID-19 causing the closure of more than
+            <p class='desc'> Whether or not you believe protesting is correct, there are many small businesses that
+                need your help to rebuild them. 
+                
+                <!-- Our local businesses need our help. With COVID-19 causing the closure of more than
                 100,000 small businesses in the US alone, we can all support our neighbors by purchasing gift 
-                cards and paying it forward.
+                cards and paying it forward. -->
             </p>
             <img :src="titlePic" alt="titlePic" class="titlePic"/>
         </div>

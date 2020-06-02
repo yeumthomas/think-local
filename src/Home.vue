@@ -2,19 +2,21 @@
   <div id="home">
     <Navbar />
     <Title />
+    <Item />
   </div>
 </template>
 
 <script scoped>
 import Title from "./components/Title.vue"
 import Navbar from "./components/Navbar.vue"
-
+import Item from "./components/Item.vue"
 export default {
   name: 'Home',
   components: {
     Title,
     Navbar,
-  } 
+    Item
+  }
 }
 </script>
 
@@ -27,7 +29,7 @@ body {
   background-color:#c3e2f0;
   /* make it look decent enough #C8E7F5*/
   color: #cdcdcd;
-  overflow: hidden;
+  overflow-x: hidden;
   position: relative;
   height: 100%; 
 }
@@ -45,5 +47,10 @@ body {
     overflow: visible;
     overflow-x: hidden;
   }
+}
+
+#item {
+  margin: 0;
+  padding: 0;
 }
 </style>

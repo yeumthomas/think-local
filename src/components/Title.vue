@@ -15,7 +15,7 @@
             <p class='desc'>  
                 
                 Protests are happening all over the US and many small businesses have been damaged.
-                Regardless of whether or not we believe such protests are justified, we can all pitch in to help rebuild these businesses
+                Regardless of whether or not you believe such protests are justified, we can all pitch in to help rebuild these businesses
                  that our neighbors worked so hard to grow.         
                 <!-- Our local businesses need our help. With COVID-19 causing the closure of more than
                 100,000 small businesses in the US alone, we can all support our neighbors by purchasing gift 

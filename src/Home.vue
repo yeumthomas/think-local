@@ -3,6 +3,7 @@
     <Navbar />
     <Title />
     <Item />
+    <Footer />
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import Title from "./components/Title.vue"
 import Navbar from "./components/Navbar.vue"
 import Item from "./components/Item.vue"
+import Footer from "./components/Footer.vue"
 export default {
   name: 'Home',
   components: {
     Title,
     Navbar,
-    Item
+    Item,
+    Footer
   }
 }
 </script>

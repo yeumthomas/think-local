@@ -14,7 +14,7 @@
             <!--- Statistic credit: https://www.nber.org/papers/w26989.pdf -->
             <p class='desc'>  
                 
-                Protests are happening all over the US and many small businesses have been negatively affected.
+                Protests are happening all over the US and many small businesses have been damaged.
                 Regardless of whether or not we believe such protests are justified, we can all pitch in to help rebuild these businesses
                  that our neighbors worked so hard to grow.         
                 <!-- Our local businesses need our help. With COVID-19 causing the closure of more than
@@ -209,6 +209,9 @@ export default {
 
 @media screen and (min-width: 900px) {
     /* The translation of the title picture */
+    #title {
+        margin: 18vh auto 7vh auto;
+    }
     .titlePic {
         left: 23vw;
         bottom: 45vh;

@@ -21,34 +21,7 @@
 <script>
 
 export default {
-  name: 'Item',
-
-  // data () {
-  //   return {
-  //     chicpic: require('@/assets/chicago.jpeg'),
-  //     minnpic: require('@/assets/Minneapolis.jpeg'),
-  //     madpic: require('@/assets/madison.jpeg'),
-
-  //     cities: {
-  //       city1 : {
-  //         name: 'Chicago, IL',
-  //         link: 'chicago',
-  //         pic: '../chicago.jpeg'
-  //       },
-  //       city2: {
-  //         name: 'Minneapolis, MN',
-  //         link: 'minneapolis',
-  //         pic: '../Minneapolis.jpeg'
-  //       },
-  //       city3: {
-  //         name: 'Madison, WI',
-  //         link: 'madison',
-  //         pic: '../madison.jpeg'
-  //       }
-  //     }
-  //   }
-  // }
-
+  name: 'Item'
 }
 </script>
 
@@ -204,7 +177,7 @@ export default {
   }
 
   .city h1 {
-    padding: 0;
+  padding: 0px 5px 0px 10px;
   }
 }
 

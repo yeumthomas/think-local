@@ -82,6 +82,10 @@ export default {
   border-radius: 10px 10px 10px 10px;
 }
 
+.city h1:hover {
+  background-image: linear-gradient(transparent,rgba(0,0,0,.70));
+}
+
 .city {
   max-width: 92vw;
   min-width: 92vw;

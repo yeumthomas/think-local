@@ -12,13 +12,17 @@
                 <span></span>
                 <span></span>
                 <ul id="menu">
+                <a href="/"><li>Home</li></a>
                 <a href="/contact"><li>Add a Business</li></a>
-                <a href="/contact"><li>Tell Friends</li></a>
-                <a href="/contact"><li>FAQ</li></a>
-                <a href="/katy"><li>Katy, TX</li></a>
-                <div style="min-height: 45%"/>
+                <!-- <a href="/contact"><li>Tell Friends</li></a> -->
+                <a href="/contact"><li>Why Does this Website Exist?</li></a>
                 <p>▬▬▬▬▬</p>
-                <h1 class="foot-words">Made with ☕️ and ❤️ by Thomas Yeum. </h1>
+                <p style="text-decoration: underline; padding-top: 20px"> Support businesses in ... </p>
+                <a href="/chicago"><li>Chicago, IL</li></a>
+                <a href="/minneapolis"><li>Minneapolis, MN</li></a>
+                <a href="/madison"><li>Madison, WI</li></a>
+                <a href="/philadelphia"><li>Philadelphia, PA</li></a>
+                <div style="min-height: 45%"/>
                 </ul>
             </div>
         </nav>
@@ -41,7 +45,7 @@ export default {
 
 <style scoped>
 
-@media screen and (max-width: 500px) {
+
     #menuToggle input
 {
   display: block;
@@ -76,7 +80,7 @@ export default {
   position: relative;
   top: 30px;
   left: 30px;
-}
+
 }
 
 body {
@@ -140,7 +144,7 @@ body {
 {
   color: #6381A8;
   border: 2px solid #6381A8;
-  border-radius: 10px;
+  border-radius: 12px;
   padding: 8px 0px;
   cursor: pointer; 
 }
@@ -161,6 +165,7 @@ body {
   z-index: 2; /* and place it over the hamburger */
   
   -webkit-touch-callout: none;
+
 }
 
 /*

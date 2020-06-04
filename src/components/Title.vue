@@ -12,9 +12,11 @@
             </div>
             </h2>
             <!--- Statistic credit: https://www.nber.org/papers/w26989.pdf -->
-            <p class='desc'> Whether or not you believe protesting is correct, there are many small businesses that
-                need your help to rebuild them. 
+            <p class='desc'>  
                 
+                Protests are happening all over the US and many small businesses have been negatively affected.
+                Regardless of whether or not we believe such protests are justified, we can all pitch in to help rebuild these businesses
+                 that our neighbors worked so hard to grow.         
                 <!-- Our local businesses need our help. With COVID-19 causing the closure of more than
                 100,000 small businesses in the US alone, we can all support our neighbors by purchasing gift 
                 cards and paying it forward. -->
@@ -95,8 +97,10 @@ export default {
     .container {
     font-size: 36px;
     padding: 0px 15px 0px 10px;
-    min-height: 150vh;
+    height: 40vh;
     }
+
+    
 
     p {
     text-align: left;
@@ -114,6 +118,10 @@ export default {
 }
 
 @media screen and (max-width: 586px) and (min-width: 501px) {
+    #title {
+        margin-top: 13vh;
+        padding-bottom: 30px;
+    }
     .container {
     font-size: 30px;
     padding-left: 15px;
@@ -128,14 +136,14 @@ export default {
 
     .titlePic {
         width: 300px;
-        bottom: 33vh;
+        bottom: 38vh;
     }
 }
 
 @media screen and (max-width: 720px) and (min-width: 587px) {
     .container {
     font-size: 30px;
-    padding-left: 15px;
+    padding-left: 40px;
     }
 
     p {
@@ -147,14 +155,19 @@ export default {
 
     .titlePic {
         width: 300px;
-        bottom: 40vh;
+        bottom: 41vh;
+        right: 5vw;
     }
 }
 
 @media screen and (max-width: 830px) and (min-width: 721px) {
+    #title {
+        margin-top: 13vh;
+    }
     .container {
     font-size: 30px;
     padding-left: 15px;
+    padding-bottom: 100px;
     }
 
     p {
@@ -165,34 +178,20 @@ export default {
 
     .titlePic {
         left: 23vw;
-        bottom: 52vh;
-    }
-
-}
-
-@media screen and (max-width: 830px) and (min-width: 721px) {
-    .container {
-    font-size: 30px;
-    padding-left: 15px;
-    }
-
-    p {
-    text-align: left;
-    margin: 15px 60% 15px 0px;
-    font-size: 24px;
-    }
-
-    .titlePic {
-        left: 23vw;
-        bottom: 52vh;
+        bottom:50vh;
     }
 
 }
 
 @media screen and (max-width: 890px) and (min-width: 831px) {
+        #title {
+        margin-top: 13vh;
+        padding-bottom: 80px;
+    }
+
     .container {
     font-size: 30px;
-    padding-left: 15px;
+    padding-left: 25px;
     }
 
     p {
@@ -203,7 +202,7 @@ export default {
 
     .titlePic {
         left: 23vw;
-        bottom: 48vh;
+        bottom: 50vh;
     }
 
 }
@@ -212,6 +211,7 @@ export default {
     /* The translation of the title picture */
     .titlePic {
         left: 23vw;
+        bottom: 45vh;
     }
 
     p {

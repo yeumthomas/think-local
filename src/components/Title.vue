@@ -183,7 +183,7 @@ export default {
 
 }
 
-@media screen and (max-width: 890px) and (min-width: 831px) {
+@media screen and (max-width: 899px) and (min-width: 831px) {
         #title {
         margin-top: 13vh;
         padding-bottom: 80px;
@@ -207,7 +207,7 @@ export default {
 
 }
 
-@media screen and (min-width: 891px) {
+@media screen and (min-width: 900px) {
     /* The translation of the title picture */
     .titlePic {
         left: 23vw;

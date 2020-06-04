@@ -119,7 +119,7 @@ export default {
   border-radius: 10px 10px 10px 10px;
 }
 
-@media screen and (max-width: 399px) {
+@media screen and (max-width: 399px) and (min-height: 750px) {
   #item {
     margin-top: 40vh;
   }
@@ -135,7 +135,39 @@ export default {
   }
 }
 
-@media screen and (min-width: 400px) and (max-width: 500px) {
+@media screen and (max-width: 399px) and (max-height: 749px) {
+  #item {
+    margin-top: 55vh;
+  }
+  .city-list {
+    margin: 0px auto 0px auto;
+    max-width: 350px;
+  }
+  
+  .city{
+    max-width: 300px;
+    min-width: 300px;
+    margin: 0px auto 15px auto;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) and (max-height: 749px) {
+  #item {
+    margin-top: 55vh;
+  }
+  .city-list {
+    margin: 0px auto 0px auto;
+    max-width: 350px;
+  }
+  
+  .city{
+    max-width: 350px;
+    min-width: 350px;
+    margin: 0px auto 15px auto;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) and (min-height: 750px) {
   #item {
     margin-top: 50vh;
   }
@@ -151,7 +183,7 @@ export default {
   }
 }
 
-@media screen and (min-width: 501px) and (max-width: 900px) {
+@media screen and (min-width: 501px) {
   #item {
     padding-bottom: 3vh;
     margin-top: 0;
@@ -160,12 +192,19 @@ export default {
     margin: 0px auto 0px auto;
     max-width: 80%;
     min-width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   
   .city{
     max-width: 350px;
     min-width: 350px;
-    margin: 0px auto 15px auto;
+    margin: 30px auto 15px auto;
+    flex: 380px 380px;
+  }
+
+  .city h1 {
+    padding: 0;
   }
 }
 
